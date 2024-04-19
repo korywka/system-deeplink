@@ -1,0 +1,21 @@
+{
+  "name": "system-deeplink",
+  "version": "1.0.0",
+  "description": "Checks if macOS application is installed by opening it using a registered system deeplink",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "types": "npx tsc",
+    "lint": "eslint . --fix",
+    "dev": "serve"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-ecmascript": "2.7.0",
+    "serve": "14.2.1",
+    "typescript": "5.4.5"
+  },
+  "repository": "korywka/system-deeplink",
+  "license": "MIT"
+}
